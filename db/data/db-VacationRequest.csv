@@ -1,4 +1,9 @@
-ID,startDate,endDate,motive,status_ID,name,submitionDate
-d57b5df7-9400-4313-a15e-22b4c1a29f20,2025-12-01,2025-12-10,Family vacation,0b7e7a5b-4a83-4531-a7fd-e90f623cbbf1,Alice Smith,2025-11-01
-88b58330-0d97-4abf-98c2-81ca93e5fed9,2025-11-15,2025-11-20,Medical leave,9df3769b-ce1a-47c5-aa45-51b001475929,Bob Johnson,2025-11-03
-0c9d4c06-4d8b-4916-be2d-7350185b4e7b,2025-12-24,2025-12-31,Holiday travel,5b74af7d-a0ff-4d07-8a20-c893b7166689,Charlie Davis,2025-11-02
+ID,startDate,endDate,motive,status_description,name,submitionDate
+d57b5df7-9400-4313-a15e-22b4c1a29f20,2025-12-01,2025-12-10,Family vacation,Pending,user4,2025-11-01
+88b58330-0d97-4abf-98c2-81ca93e5fed9,2025-11-15,2025-11-20,Medical leave,Approved,user2,2025-11-03
+0c9d4c06-4d8b-4916-be2d-7350185b4e7b,2025-12-24,2025-12-31,Holiday travel,Rejected,user1,2025-11-02
+a1f3c2d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d,2025-11-25,2025-11-30,Conference attendance,Pending,user9,2025-11-03
+b2e4d5f6-7a8b-9c0d-1e2f-3a4b5c6d7e8f,2025-12-05,2025-12-07,Personal time,Approved,user3,2025-11-02
+c3f5e6d7-8a9b-0c1d-2e3f-4a5b6c7d8e9f,2025-12-15,2025-12-20,Training workshop,Pending,user7,2025-11-01
+d4g6f7e8-9a0b-1c2d-3e4f-5a6b7c8d9e0f,2025-11-10,2025-11-12,Family emergency,Approved,user8,2025-11-03
+e5h7g8f9-0a1b-2c3d-4e5f-6a7b8c9d0e1f,2025-12-22,2025-12-26,Holiday break,Rejected,user5,2025-11-02

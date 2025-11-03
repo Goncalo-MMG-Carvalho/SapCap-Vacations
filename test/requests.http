@@ -9,7 +9,7 @@ Accept: application/json
 }
 
 ### Get single employee
-GET  {{baseUrl}}/Employee(ID = '3ff8ddd9-a070-49a0-b0be-b1294499fc53')
+GET  {{baseUrl}}/Employee(ID = '3ff8ddd9-a070-49a0-b0be-b1294499fc53', IsActiveEntity = 'true')
 Accept: application/json
 
 {

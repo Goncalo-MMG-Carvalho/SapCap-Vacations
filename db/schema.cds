@@ -2,7 +2,7 @@ using { cuid, managed } from '@sap/cds/common';
 namespace db;
 
 
-
+@odata.draft.enabled
 entity Employee : cuid {
     name: String;
     email: String @assert.format : 'email';
@@ -18,6 +18,6 @@ entity VacationRequest : cuid {
     submitionDate: Date;
 }
 
-entity ApprovalStatus : cuid {
-    description: String;
+entity ApprovalStatus {
+    key description: String;
 }
