@@ -1,0 +1,35 @@
+@baseUrl = http://localhost:4004/odata/v4/vacation
+
+### Get employees
+GET  {{baseUrl}}/Employee
+Accept: application/json
+
+{
+
+}
+
+### Get single employee
+GET  {{baseUrl}}/Employee(ID = '3ff8ddd9-a070-49a0-b0be-b1294499fc53')
+Accept: application/json
+
+{
+
+}
+
+### Get employees
+GET  {{baseUrl}}/VacationRequest
+Accept: application/json
+
+{
+
+}
+
+### Get single employee
+GET  {{baseUrl}}/VacationRequest(ID = '0c9d4c06-4d8b-4916-be2d-7350185b4e7b')
+Accept: application/json
+
+{
+
+}
+
+# ----------------------------------------------------------------------------------------------
